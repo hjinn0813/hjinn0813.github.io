@@ -1,0 +1,83 @@
+#project-title {
+  height: 8vh;
+  background-color: #2e2426;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 26px;
+  padding: 50px 0;
+}
+
+#project-content {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* 개별 박스 디자인 */
+.projectInfo {
+  width: 80%;
+  height: auto;
+  border: 1px solid #2e2426;
+  border-radius: 8px;
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.maininfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.workNum {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.workTitle {
+  font-size: 20px;
+  margin: 6px 0;
+}
+.work {
+  width: 80%;
+  margin: 12px 0;
+}
+
+#workinfo {
+  width: 80%;
+  line-height: 1.8;
+}
+#work_row {
+  margin: 12px 0;
+  display: flex;
+}
+#attribute {
+  font-weight: 700;
+  height: auto;
+  margin-right: 16px;
+}
+#pj_skill {
+  line-height: 2;
+}
+
+/* button */
+.btn-dark {
+  margin: 8px 0;
+}
+
+.goWeb {
+  text-decoration: none;
+  color: white;
+}
