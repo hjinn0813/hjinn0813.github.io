@@ -13,17 +13,17 @@
 #skill-content {
   height: auto;
   color: #2e2426;
+  margin: 40px 90px;
+  padding: 20px 90px;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  font-size: 18px;
-  line-height: 1.5;
-  padding: 50px 90px;
 }
 
 #sk_info {
   margin: 16px 0;
+  display: flex;
+  flex-direction: column;
 }
 #sk_value {
   line-height: 2;

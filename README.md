@@ -1,5 +1,7 @@
 # Make web portfolio by github.io
 
+- **배포주소**: https://hjinn0813.github.io/
+
 - **개발기간**: 2024.03.07 ~ (계속 수정/보완 중)
 
 - **참여인원**: 1명
