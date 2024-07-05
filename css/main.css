@@ -29,20 +29,26 @@ body {
   vertical-align: middle;
   font-size: 20px;
   font-weight: 700;
-  border-right: 3px solid black;
-  animation: cursor 0.2s ease infinite;
-}
-@keyframes cursor {
-  /* 타이핑 애니메이션 커서 */
-  50% {
-    border-color: transparent;
-  }
 }
 
-@media screen and (max-width: 480px) {
-  #intro-text,
-  .greeting {
-    margin: 40px 5rem;
+.greeting::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+  color: #000;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -125,4 +131,13 @@ footer > p {
   font-size: 34px;
   color: #f4a29c;
   cursor: pointer;
+}
+
+/*  미디어쿼리 */
+@media screen and (max-width: 768px) {
+  #intro,
+  #intro-text,
+  .greeting {
+    margin: 40px 5rem;
+  }
 }

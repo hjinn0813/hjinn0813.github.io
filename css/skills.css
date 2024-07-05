@@ -28,7 +28,7 @@
   line-height: 2;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   #skill-content {
     margin: 40px 5rem;
     display: flex;

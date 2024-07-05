@@ -1,20 +1,40 @@
 // Text typing animation
-const content = '안녕하세요! 주니어 프론트엔드 개발자 조혜진입니다.';
+const content = '안녕하세요! \n 주니어 프론트엔드 개발자, \n 조혜진입니다.';
 const text = document.querySelector('.greeting');
+let isAdding = true;
 let i = 0;
 // 문자열 접근을 위한 인덱스
 
-function typing() {
-  text.textContent += content[i++];
-  // 하나씩 증가하며 추가
-
-  if (i > content.length) {
-    // 컨텐츠 길이보다 길어지면 초기화 후 재시작
-    text.textContent = '';
-    i = 0;
-  }
+function playAnim() {
+  setTimeout(function () {
+    text.innerText = content.slice(0, i);
+    if (isAdding) {
+      // adding text
+      if (i > content.length) {
+        // no more text to add
+        isAdding = false;
+        setTimeout(function () {
+          playAnim();
+        }, 100);
+        return;
+      } else {
+        i++;
+      }
+    } else {
+      // removing text
+      if (i === 0) {
+        // no more text to remove
+        isAdding = true;
+      } else {
+        i--;
+      }
+    }
+    // call itself
+    playAnim();
+  }, 120);
 }
-setInterval(typing, 200);
+// 타이핑 스크립트 호출
+playAnim();
 
 // to top btn
 const toTopBtn = document.querySelector('#toTopBtn');
