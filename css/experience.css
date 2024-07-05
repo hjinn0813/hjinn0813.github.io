@@ -14,12 +14,19 @@
   height: auto;
   color: #2e2426;
   line-height: 1.8;
-  margin: 40px 90px;
-  padding: 20px 90px;
+  margin: 40px 9.375rem;
   display: flex;
   flex-direction: column;
 }
 
 #edu_row {
   margin: 22px 0;
+}
+
+@media screen and (max-width: 480px) {
+  #edu-content {
+    margin: 40px 5rem;
+    display: flex;
+    flex-direction: column;
+  }
 }

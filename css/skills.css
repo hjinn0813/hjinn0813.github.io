@@ -13,8 +13,7 @@
 #skill-content {
   height: auto;
   color: #2e2426;
-  margin: 40px 90px;
-  padding: 20px 90px;
+  margin: 40px 9.375rem;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -27,4 +26,12 @@
 }
 #sk_value {
   line-height: 2;
+}
+
+@media screen and (max-width: 480px) {
+  #skill-content {
+    margin: 40px 5rem;
+    display: flex;
+    flex-direction: column;
+  }
 }
