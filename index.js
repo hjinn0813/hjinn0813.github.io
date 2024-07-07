@@ -1,5 +1,5 @@
 // Text typing animation
-const content = '안녕하세요! \n 주니어 프론트엔드 개발자, \n 조혜진입니다.';
+const content = '안녕하세요! \n 주니어 프론트엔드 개발자, \n 조혜진입니다. :)';
 const text = document.querySelector('.greeting');
 let isAdding = true;
 let i = 0;
