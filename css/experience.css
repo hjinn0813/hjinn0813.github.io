@@ -24,8 +24,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  /* 모바일 버전 */
   #edu-content {
-    margin: 40px 5rem;
+    margin: 50px;
     display: flex;
     flex-direction: column;
   }

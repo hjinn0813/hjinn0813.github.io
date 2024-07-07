@@ -6,6 +6,8 @@ body {
   word-break: keep-all;
   box-sizing: border-box;
   overflow-x: hidden;
+  background-image: url(../img/background.png);
+  background-size: cover;
 }
 
 /* intro */
@@ -25,6 +27,7 @@ body {
 }
 
 .greeting {
+  height: 6.25rem;
   display: table-cell;
   vertical-align: middle;
   font-size: 20px;
@@ -133,11 +136,53 @@ footer > p {
   cursor: pointer;
 }
 
-/*  미디어쿼리 */
+/* 미디어쿼리 */
+@media screen and (min-width: 768px) {
+  .small-menu {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  #intro,
-  #intro-text,
+  /* 모바일 버전 */
+  .menu {
+    display: none;
+  }
+  .small-menu {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 70px;
+  }
+  .small-menu li,
+  .small-menu a {
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+  }
+
+  /* home */
+  #intro {
+    margin: 50px;
+  }
+  #intro-text {
+    margin: 0;
+  }
   .greeting {
-    margin: 40px 5rem;
+    height: 150px;
+  }
+
+  /* footer */
+  footer > p {
+    font-size: 14px;
   }
 }
