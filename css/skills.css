@@ -11,12 +11,13 @@
 }
 
 #skill-content {
-  height: auto;
+  height: 80vh;
   color: #2e2426;
   margin: 40px 9.375rem;
   font-size: 18px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 #sk_info {
@@ -31,6 +32,7 @@
 @media screen and (max-width: 768px) {
   /* 모바일 버전 */
   #skill-content {
+    height: auto;
     margin: 50px;
     display: flex;
     flex-direction: column;
