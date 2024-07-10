@@ -1,4 +1,4 @@
-// Text typing animation
+/* Text typing animation */
 const content = '안녕하세요! \n 주니어 프론트엔드 개발자, \n 조혜진입니다. :)';
 const text = document.querySelector('.greeting');
 let isAdding = true;
@@ -36,7 +36,24 @@ function playAnim() {
 // 타이핑 스크립트 호출
 playAnim();
 
-// to top btn
+/* header scroll event */
+gsap.registerPlugin(ScrollTrigger);
+const headerEl = document.querySelector('#header');
+
+window.addEventListener(
+  'scroll',
+  _.throttle(() => {
+    const scrolled = window.scrollY;
+
+    if (scrolled > 400) {
+      gsap.to(headerEl, { y: -70, duration: 0.3 });
+    } else {
+      gsap.to(headerEl, { y: 0, duration: 0.3 });
+    }
+  }, 300)
+);
+
+/* to top btn */
 const toTopBtn = document.querySelector('#toTopBtn');
 function topFunc() {
   document.documentElement.scrollTop = 0;
