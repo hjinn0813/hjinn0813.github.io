@@ -9,6 +9,7 @@ body,
   overflow-x: hidden;
   background-image: url(../img/background.png);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* intro */
