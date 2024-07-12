@@ -39,11 +39,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <!-- <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script> -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -171,6 +166,7 @@
               <img src="./assets/badges/1-Bootstrap.svg" alt="BOOTSTRAP" />
               <img src="./assets/badges/1-swiper.svg" alt="SWIPER" />
               <img src="./assets/badges/1-gsap.svg" alt="GSAP" />
+              <img src="./assets/badges/1-lodash.svg" alt="Lodash" />
             </div>
           </div>
           <div id="sk_info">
@@ -205,104 +201,133 @@
         <aside id="project-title">PROJECTS</aside>
         <aside id="project-content">
           <div class="projectInfo info1">
-            <div class="maininfo">
-              <div class="workNum">Team Project</div>
-              <div class="workTitle">UI/UX - EVERPOWER 공식 쇼핑몰</div>
-              <img src="./assets/img/team1.png" class="work" alt="EVERPOWER" />
-              <div id="workinfo">
-                <div id="work_row">
-                  <div id="attribute">개발기간</div>
-                  <div>2024.01.12 ~ 01.28</div>
+            <div class="custom-card">
+              <div class="front">
+                <img src="./assets/img/team1.png" alt="everpower" />
+              </div>
+              <div class="pj-info">
+                <div class="pj-title">Team Project</div>
+                <div>UI/UX - EVERPOWER 공식 쇼핑몰</div>
+                <button class="flipbtn">Click to flip</button>
+              </div>
+              <div class="back">
+                <div class="back-txt">2024.01.12 ~ 01.28 / 4인</div>
+                <div class="back-txt">
+                  <b class="pjskill">사용기술:</b>
+                  <img
+                    src="./assets/badges/4-Figma.svg"
+                    alt="FIGMA"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/4-Slack.svg"
+                    alt="SLACK"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/4-Notion.svg"
+                    alt="NOTION"
+                    class="pjskill"
+                  />
                 </div>
-                <div id="work_row">
-                  <div id="attribute">참여인원</div>
-                  <div>4인</div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">기획배경</div>
-                  <div>
-                    팀원 모두가 패션에 관심이 있어서 2030세대를 타겟층으로 하는
-                    가상의 스포츠웨어 브랜드 'EVERPOWER' 쇼핑몰 페이지 제작
-                  </div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">사용기술</div>
-                  <div>
-                    <img src="./assets/badges/4-Figma.svg" alt="FIGMA" />
-                    <img src="./assets/badges/4-Slack.svg" alt="SLACK" />
-                    <img src="./assets/badges/4-Notion.svg" alt="NOTION" />
-                  </div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">담당파트</div>
-                  <div>
-                    팀장으로 팀원들 이끌어서 프로젝트 진행
-                    <br />
-                    - 웹: 맨, 우먼, 이벤트, 결제하기, 마이 페이지, 회원정보수정
-                    <br />
-                    - 모바일: 맨, 우먼, 결제하기, 마이 페이지, 회원정보수정
-                  </div>
+                <div class="back-txt">
+                  <b>담당파트:</b> 팀장으로 팀원들 이끌어서 프로젝트 진행
+                  <br />
+                  - 웹: 맨, 우먼, 이벤트, 결제하기, 마이 페이지, 회원정보수정
+                  <br />
+                  - 모바일: 맨, 우먼, 결제하기, 마이 페이지, 회원정보수정
                 </div>
                 <button type="button" class="btn btn-dark">
                   <a
                     class="goWeb"
                     href="https://www.figma.com/proto/f02jVqgX8Yzc499lEGEY3H/EverPower?node-id=0-1&t=w64RtL6qKAwppEnR-1"
                     target="_blank"
-                    >Check Figma
+                    >Go Figma
+                  </a>
+                </button>
+                <button type="button" class="btn btn-dark">
+                  <a
+                    class="goWeb"
+                    href="https://www.figma.com/board/3EcMQlsXzfM7aLe8gBnCm4/F%ED%8C%80-%EA%B8%B0%ED%9A%8D%EC%95%88%2B%ED%9A%8C%EC%9D%98%EB%A1%9D?node-id=0-1&t=KJuTbWkMGrWykzBY-1"
+                    target="_blank"
+                    >README
                   </a>
                 </button>
               </div>
             </div>
           </div>
           <div class="projectInfo info2">
-            <div class="maininfo">
-              <div class="workNum">Team Project</div>
-              <div class="workTitle">Frontend - '루미펫' 사이트 기획, 제작</div>
-              <img src="./assets/img/team2.png" class="work" alt="lumipet" />
-              <div id="workinfo">
-                <div id="work_row">
-                  <div id="attribute">개발기간</div>
-                  <div>2024.03.13 ~ 03.28</div>
+            <div class="custom-card">
+              <div class="front">
+                <img src="./assets/img/team2.png" alt="lumipet" />
+              </div>
+              <div class="pj-info">
+                <div class="pj-title">Team Project</div>
+                <div>Frontend - '루미펫' 사이트 기획, 제작</div>
+                <button class="flipbtn">Click to flip</button>
+              </div>
+              <div class="back">
+                <div class="back-txt">2024.03.13 ~ 03.28 / 5인</div>
+                <div class="back-txt">
+                  <b>사용기술:</b>
+                  <img
+                    src="./assets/badges/1-HTML.svg"
+                    alt="HTML"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/1-CSS.svg"
+                    alt="CSS"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/1-JavaScript.svg"
+                    alt="JS"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/1-Bootstrap.svg"
+                    alt="BOOTSTRAP"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/2-Git.svg"
+                    alt="GIT"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/2-GitHub.svg"
+                    alt="GITHUB"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/3-VS_Code.svg"
+                    alt="VSCODE"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/4-Figma.svg"
+                    alt="FIGMA"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/4-Slack.svg"
+                    alt="SLACK"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/4-Zoom.svg"
+                    alt="ZOOM"
+                    class="pjskill"
+                  />
+                  <img
+                    src="./assets/badges/4-Notion.svg"
+                    alt="NOTION"
+                    class="pjskill"
+                  />
                 </div>
-                <div id="work_row">
-                  <div id="attribute">참여인원</div>
-                  <div>5인</div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">기획배경</div>
-                  <div>
-                    반려동물이 갑자기 아플 때 24시간 동물병원을 찾기 어려웠던
-                    경험에서 착안, 반려인을 위한 공간 예약 사이트 '루미펫' 제작
-                  </div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">사용기술</div>
-                  <div id="pj_skill">
-                    <img src="./assets/badges/1-HTML.svg" alt="HTML" />
-                    <img src="./assets/badges/1-CSS.svg" alt="CSS" />
-                    <img src="./assets/badges/1-JavaScript.svg" alt="JS" />
-                    <img
-                      src="./assets/badges/1-Bootstrap.svg"
-                      alt="BOOTSTRAP"
-                    />
-                    <br />
-                    <img src="./assets/badges/2-Git.svg" alt="GIT" />
-                    <img src="./assets/badges/2-GitHub.svg" alt="GITHUB" />
-                    <img src="./assets/badges/3-VS_Code.svg" alt="VSCODE" />
-                    <img src="./assets/badges/4-Figma.svg" alt="FIGMA" />
-                    <br />
-                    <img src="./assets/badges/4-Slack.svg" alt="SLACK" />
-                    <img src="./assets/badges/4-Zoom.svg" alt="ZOOM" />
-                    <img src="./assets/badges/4-Notion.svg" alt="NOTION" />
-                    <img
-                      src="./assets/badges/4-kakaotalk.svg"
-                      alt="kakaotalk"
-                    />
-                  </div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">담당파트</div>
-                  <div>로그인, 회원가입 페이지</div>
+                <div class="back-txt">
+                  <b>담당파트:</b> 로그인, 회원가입 페이지
                 </div>
                 <button type="button" class="btn btn-dark">
                   <a
@@ -324,57 +349,87 @@
             </div>
           </div>
           <div class="projectInfo info3">
-            <div class="maininfo">
-              <div class="workNum">Team Project</div>
-              <div class="workTitle">Frontend - '밭드림' 사이트 기획, 제작</div>
-              <img src="./assets/img/team3.png" class="work" alt="batdream" />
-              <div id="workinfo">
-                <div id="work_row">
-                  <div id="attribute">개발기간</div>
-                  <div>2024.04.26 ~ 05.16</div>
+            <div class="custom-card">
+              <div class="front">
+                <img src="./assets/img/team3.png" alt="batdream" />
+              </div>
+              <div class="pj-info">
+                <div class="pj-title">Team Project</div>
+                <div>Frontend - '밭드림' 사이트 기획, 제작</div>
+                <button class="flipbtn">Click to flip</button>
+              </div>
+              <div class="back">
+                <div class="back-txt">2024.04.26 ~ 05.16 / 6인</div>
+                <div class="back-txt">
+                  <b>사용기술: </b>
+                  <img
+                    src="./assets/badges/1-HTML.svg"
+                    class="pjskill"
+                    alt="HTML"
+                  />
+                  <img
+                    src="./assets/badges/1-JavaScript.svg"
+                    class="pjskill"
+                    alt="JS"
+                  />
+                  <img
+                    src="./assets/badges/1-React.svg"
+                    class="pjskill"
+                    alt="REACT"
+                  />
+                  <img
+                    src="./assets/badges/1-SASS.svg"
+                    class="pjskill"
+                    alt="SASS"
+                  />
+                  <img
+                    src="./assets/badges/1-Bootstrap.svg"
+                    class="pjskill"
+                    alt="BOOTSTRAP"
+                  />
+                  <img
+                    src="./assets/badges/2-Git.svg"
+                    class="pjskill"
+                    alt="GIT"
+                  />
+                  <img
+                    src="./assets/badges/2-GitHub.svg"
+                    class="pjskill"
+                    alt="GITHUB"
+                  />
+                  <img
+                    src="./assets/badges/3-VS_Code.svg"
+                    class="pjskill"
+                    alt="VSCODE"
+                  />
+                  <img
+                    src="./assets/badges/4-Figma.svg"
+                    class="pjskill"
+                    alt="FIGMA"
+                  />
+                  <img
+                    src="./assets/badges/4-Slack.svg"
+                    class="pjskill"
+                    alt="SLACK"
+                  />
+                  <img
+                    src="./assets/badges/4-Discord.svg"
+                    class="pjskill"
+                    alt="DISCORD"
+                  />
+                  <img
+                    src="./assets/badges/4-Notion.svg"
+                    class="pjskill"
+                    alt="NOTION"
+                  />
+                  <img
+                    src="./assets/badges/4-kakaotalk.svg"
+                    class="pjskill"
+                    alt="KakaoTalk"
+                  />
                 </div>
-                <div id="work_row">
-                  <div id="attribute">참여인원</div>
-                  <div>6인</div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">기획배경</div>
-                  <div>
-                    내 가족이 먹을 농작물을 주말농장에서 직접 키우고 수확하는
-                    인구는 늘고 있지만, 관련 지식이 없으면 접근이 어렵다는
-                    점에서 착안, 초보 농부들을 위한 정보 제공 사이트 '밭드림'
-                    제작
-                  </div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">사용기술</div>
-                  <div id="pj_skill">
-                    <img src="./assets/badges/1-HTML.svg" alt="HTML" />
-                    <img src="./assets/badges/1-JavaScript.svg" alt="JS" />
-                    <img src="./assets/badges/1-React.svg" alt="REACT" />
-                    <img src="./assets/badges/1-SASS.svg" alt="SASS" />
-                    <img
-                      src="./assets/badges/1-Bootstrap.svg"
-                      alt="BOOTSTRAP"
-                    />
-                    <br />
-                    <img src="./assets/badges/2-Git.svg" alt="GIT" />
-                    <img src="./assets/badges/2-GitHub.svg" alt="GITHUB" />
-                    <img src="./assets/badges/3-VS_Code.svg" alt="VSCODE" />
-                    <img src="./assets/badges/4-Figma.svg" alt="FIGMA" />
-                    <br />
-                    <img src="./assets/badges/4-Slack.svg" alt="SLACK" />
-                    <img src="./assets/badges/4-Discord.svg" alt="DISCORD" />
-                    <img src="./assets/badges/4-Notion.svg" alt="NOTION" />
-                    <img
-                      src="./assets/badges/4-kakaotalk.svg"
-                      alt="kakaotalk"
-                    />
-                  </div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">담당파트</div>
-                  <div>날씨 위젯, 미세먼지 위젯, Not Found 페이지</div>
+                <div class="back-txt">
+                  <b>담당파트:</b> 날씨 위젯, 미세먼지 위젯, not found 페이지
                 </div>
                 <button type="button" class="btn btn-dark">
                   <a
@@ -396,43 +451,64 @@
             </div>
           </div>
           <div class="projectInfo info4">
-            <div class="maininfo">
-              <div class="workNum">Toy Project</div>
-              <div class="workTitle">Frontend - 개인 포트폴리오 사이트</div>
-              <img
-                src="./assets/img/web-portfolio.png"
-                class="work"
-                alt="portfoilo"
-              />
-              <div id="workinfo">
-                <div id="work_row">
-                  <div id="attribute">개발기간</div>
-                  <div>
-                    2024.03.07 ~
-                    <br />
-                    (계속 수정/보완 중)
-                  </div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">참여인원</div>
-                  <div>1인</div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">사용기술</div>
-                  <div id="pj_skill">
-                    <img src="./assets/badges/1-HTML.svg" alt="HTML" />
-                    <img src="./assets/badges/1-CSS.svg" alt="CSS" />
-                    <img src="./assets/badges/1-JavaScript.svg" alt="JS" />
-                    <img
-                      src="./assets/badges/1-Bootstrap.svg"
-                      alt="BOOTSTRAP"
-                    />
-                    <img src="./assets/badges/1-gsap.svg" alt="GSAP" />
-                    <br />
-                    <img src="./assets/badges/2-Git.svg" alt="GIT" />
-                    <img src="./assets/badges/2-GitHub.svg" alt="GITHUB" />
-                    <img src="./assets/badges/3-VS_Code.svg" alt="VSCODE" />
-                  </div>
+            <div class="custom-card">
+              <div class="front">
+                <img src="./assets/img/web-portfolio.png" alt="portfolio" />
+              </div>
+              <div class="pj-info">
+                <div class="pj-title">Toy Project</div>
+                <div>Frontend - 개인 포트폴리오 사이트</div>
+                <button class="flipbtn">Click to flip</button>
+              </div>
+              <div class="back">
+                <div class="back-txt">2024.03.07~ / 1인</div>
+                <div class="back-txt">
+                  <b>사용기술: </b>
+                  <img
+                    src="./assets/badges/1-HTML.svg"
+                    class="pjskill"
+                    alt="HTML"
+                  />
+                  <img
+                    src="./assets/badges/1-CSS.svg"
+                    class="pjskill"
+                    alt="CSS"
+                  />
+                  <img
+                    src="./assets/badges/1-JavaScript.svg"
+                    class="pjskill"
+                    alt="JS"
+                  />
+                  <img
+                    src="./assets/badges/1-Bootstrap.svg"
+                    class="pjskill"
+                    alt="BOOTSTRAP"
+                  />
+                  <img
+                    src="./assets/badges/1-gsap.svg"
+                    class="pjskill"
+                    alt="GSAP"
+                  />
+                  <img
+                    src="./assets/badges/1-lodash.svg"
+                    class="pjskill"
+                    alt="Lodash"
+                  />
+                  <img
+                    src="./assets/badges/2-Git.svg"
+                    class="pjskill"
+                    alt="GIT"
+                  />
+                  <img
+                    src="./assets/badges/2-GitHub.svg"
+                    class="pjskill"
+                    alt="GITHUB"
+                  />
+                  <img
+                    src="./assets/badges/3-VS_Code.svg"
+                    class="pjskill"
+                    alt="VSCODE"
+                  />
                 </div>
                 <button type="button" class="btn btn-dark">
                   <a
@@ -454,36 +530,59 @@
             </div>
           </div>
           <div class="projectInfo info5">
-            <div class="maininfo">
-              <div class="workNum">Toy Project</div>
-              <div class="workTitle">Frontend - '시네톡' 사이트 기획, 제작</div>
-              <img src="./assets/img/toy1.png" class="work" alt="cinetalk" />
-              <div id="workinfo">
-                <div id="work_row">
-                  <div id="attribute">개발기간</div>
-                  <div>
-                    2024.07.01 ~
-                    <br />
-                    (계속 수정/보완 중)
-                  </div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">참여인원</div>
-                  <div>1인</div>
-                </div>
-                <div id="work_row">
-                  <div id="attribute">사용기술</div>
-                  <div id="pj_skill">
-                    <img src="./assets/badges/1-HTML.svg" alt="HTML" />
-                    <img src="./assets/badges/1-JavaScript.svg" alt="JS" />
-                    <img src="./assets/badges/1-React.svg" alt="REACT" />
-                    <img src="./assets/badges/1-SASS.svg" alt="SASS" />
-                    <br />
-                    <img src="./assets/badges/2-Git.svg" alt="GIT" />
-                    <img src="./assets/badges/2-GitHub.svg" alt="GITHUB" />
-                    <img src="./assets/badges/3-VS_Code.svg" alt="VSCODE" />
-                    <img src="./assets/badges/4-Figma.svg" alt="FIGMA" />
-                  </div>
+            <div class="custom-card">
+              <div class="front">
+                <img src="./assets/img/toy1.png" alt="cinetalk" />
+              </div>
+              <div class="pj-info">
+                <div class="pj-title">Toy Project</div>
+                <div>Frontend - '시네톡' 사이트 기획, 제작</div>
+                <button class="flipbtn">Click to flip</button>
+              </div>
+              <div class="back">
+                <div class="back-txt">2024.07.01~ / 1인</div>
+                <div class="back-txt">
+                  <b>사용기술: </b>
+                  <img
+                    src="./assets/badges/1-HTML.svg"
+                    class="pjskill"
+                    alt="HTML"
+                  />
+                  <img
+                    src="./assets/badges/1-JavaScript.svg"
+                    class="pjskill"
+                    alt="JS"
+                  />
+                  <img
+                    src="./assets/badges/1-React.svg"
+                    class="pjskill"
+                    alt="REACT"
+                  />
+                  <img
+                    src="./assets/badges/1-SASS.svg"
+                    class="pjskill"
+                    alt="SASS"
+                  />
+                  <img
+                    src="./assets/badges/2-Git.svg"
+                    class="pjskill"
+                    alt="GIT"
+                  />
+                  <img
+                    src="./assets/badges/2-GitHub.svg"
+                    class="pjskill"
+                    alt="GITHUB"
+                  />
+                  <img
+                    src="./assets/badges/3-VS_Code.svg"
+                    class="pjskill"
+                    alt="VSCODE"
+                  />
+                  <img
+                    src="./assets/badges/4-Figma.svg"
+                    class="pjskill"
+                    alt="FIGMA"
+                  />
                 </div>
                 <button type="button" class="btn btn-dark">
                   <a class="goWeb" href="#" target="_blank">Go Website</a>

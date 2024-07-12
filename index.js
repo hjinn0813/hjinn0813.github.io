@@ -53,6 +53,23 @@ window.addEventListener(
   }, 300)
 );
 
+/* project card flip */
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.custom-card');
+  for (const card of cards) {
+    card.addEventListener('click', flipCard);
+  }
+
+  function flipCard(event) {
+    const target = event.currentTarget;
+    if (!target.classList.contains('flipped')) {
+      target.classList.add('flipped');
+    } else {
+      target.classList.remove('flipped');
+    }
+  }
+});
+
 /* to top btn */
 const toTopBtn = document.querySelector('#toTopBtn');
 function topFunc() {
