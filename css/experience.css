@@ -22,6 +22,12 @@
   margin: 22px 0;
 }
 
+#attribute {
+  font-weight: 700;
+  height: auto;
+  margin-right: 16px;
+}
+
 @media screen and (max-width: 768px) {
   /* 모바일 버전 */
   #edu-content {
