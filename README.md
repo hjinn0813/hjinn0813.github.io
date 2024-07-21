@@ -17,3 +17,4 @@
   ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=GreenSock&logoColor=white)
   ![Lodash](https://img.shields.io/badge/lodash-3492FF?style=flat-square&logo=lodash&logoColor=white)
 
+  [사용기술 상세설명](https://hjinn0813.tistory.com/92)
