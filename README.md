@@ -4,7 +4,11 @@
 
 - **개발기간**: 2024.03.07 ~ 08.06
 
-  - 코딩 공부 초기에 제작하여 순수 JS 사용, 현재는 React로 리뉴얼된 페이지를 사용 중입니다.
+  - 코딩 공부 초기에 제작하여 순수 JS 사용, 현재는 React로 리뉴얼된 페이지를 사용 중입니다!
+  
+    리뉴얼된 페이지는 아래 레포를 확인해주세요!🙂
+
+    [![portfolio](https://github-readme-stats.vercel.app/api/pin/?username=hjinn0813&repo=portfolio)](https://github.com/hjinn0813/portfolio)
 
 - **참여인원**: 1명
 
