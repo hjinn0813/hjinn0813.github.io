@@ -1,9 +1,7 @@
 # Make web portfolio by github.io
 
-개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다.
-
-코딩 공부 초기에 제작하여 순수 JS를 사용했고, 현재는 React로 리뉴얼된 페이지를 사용 중입니다!
-
+개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다.<br/>
+코딩 공부 초기에 제작하여 순수 JS를 사용했고, 현재는 React로 리뉴얼된 페이지를 사용 중입니다!<br/>
 리뉴얼된 페이지는 아래 레포를 확인해주세요!🙂
 
 [![portfolio](https://github-readme-stats.vercel.app/api/pin/?username=hjinn0813&repo=portfolio)](https://github.com/hjinn0813/portfolio)
@@ -46,15 +44,15 @@ https://github.com/hjinn0813/hjinn0813.github.io/
 
 ## 💻 주요 기능
 
-- ‘About’에서 텍스트 타이핑 애니메이션
+- `About`에서 텍스트 타이핑 애니메이션
 
-- 스크롤하면 헤더가 자연스럽게 사라지는 기능 (GSAP)
+- 스크롤하면 Header가 자연스럽게 사라지는 기능 (GSAP)
 
 - 내비게이션 바 hover시 언더라인 이벤트
 
-- ‘프로젝트’ 영역의 카드 플립 애니메이션
+- `프로젝트` 영역의 카드 플립 애니메이션
 
-- 화면 우측 하단의 ‘탑 버튼‘ 기능
+- 화면 우측 하단의 '탑 버튼' 기능
 
 - 반응형 미디어쿼리 적용
 
